@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <header>
+
+   </header>
+    <nav>
+        <div class="logo">
+            Port<span>fo</span>lio
+        </div>
+       
+        </div>
+        <div class="menu">
+             <a href="#"><i class="fa fa-home"></i>Home</a>
+             <a href="#"><i class="fa fa-user"></i>About</a>
+             <a href="#"><i class="fa fa-phone"></i>Contact</a>
+             <a href="#"><i class="fa fa-lock"></i>Gallary</a>
+             <a href="#"><i class="fa fa-book"></i>Portfolio</a>
+             <a href="#"><i class="fa fa-vcard"></i>More</a>
+             <div class="ss">
+                <i class="fa fa-linkedin-square"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-github"></i>
+                <i class="fa fa-youtube-square"></i>
+            </div>
+        </div>
+    </nav>
+    <dib class="backgroundimage"></dib>
+   </header>
+   <style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     }
+.header{
+    padding: 10px 10px 10px 10px;
+    background: url(C:\Users\manes\Desktop\bg.jpg);
+    background-color: rgb(69, 203, 203);
+    background-size: cover;
+    transition: 0.5s ease;
+}
+.header img{
+    background-size: cover;
+}
+nav{
+    width: 700px;
+    height: 650px;
+    background-color: aquamarine;
+    letter-spacing: 3px;
+    line-height: 60px;
+    display: flex table-column;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 20px auto;
+    font-size: 20px;
+    transform: translateY(-20px);
+}
+.menu i{
+    margin: 0 20px;
+}
+.logo span{
+    color: brown;
+}
+
+.logo{
+    padding-top: px;
+    color:black;
+    letter-spacing: 4px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.ss{
+    margin-right: 0px 10px;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: inset;
+    transition: 0.2s ease;
+}
+.ss i{
+    margin-right: 10px;
+    size: 80px;
+}
+
+.ss i:nth-child(){
+    background-color: rgb(6, 34, 34);
+    size: 10pxz;
+}
+.ss i:hover{
+    transform: translateY(-10px);
+}
+.limage{
+    background-color:  aquamarine;
+    margin-right: 30px;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+}
+.backgroundimage{
+    width: 200px;
+    height: 100vh;
+    background: url(C:\Users\manes\Desktop\bg.jpg);
+    background-size: cover;
+}
+
+   </style>
+</body>
+</html>
